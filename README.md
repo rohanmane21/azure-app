@@ -1,5 +1,5 @@
 <h1>Microsoft-Future-Ready-Talent-Virtual-Internship-Project</h1>
-<h2>Project Title:</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Automated Fruit Detection System for Image Analysis.</b></a>
+<h2>Project Title:</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Image Analyzer Using Computer Vision.</b></a>
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://aiwebappazure.azurewebsites.net/ <br>
