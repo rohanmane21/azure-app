@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPicAnalyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>WebPicAnalyzer</h1>
+
+        <form method="post" action="/" enctype="multipart/form-data">
+            <div class="image-selection">
+                <input type="file" name="file" id="file" accept="image/*" style="display: none;" onchange="showChosenImage()">
+                <div class="button_container">
+                    <button type="button" class="custom-button" onclick="chooseImage()">Choose Image</button>
+                    <button type="submit" class="custom-button1" id="analyzeButton" disabled>Analyze Image</button>
+                </div>
+                <div id="chosenImageContainer" class="hidden">
+                    <h2>Choosen Image:</h2>
+                    <img id="chosenImage" src="#" alt="Chosen Image">
+                </div>
+            </div>
+        </form>
+
+        <script>
+            function chooseImage() {
+                document.getElementById('file').click();
+            }
+
+            function showChosenImage() {
+                var chosenImageContainer = document.getElementById('chosenImageContainer');
+                var chosenImage = document.getElementById('chosenImage');
+                var analyzeButton = document.getElementById('analyzeButton');
+
+                chosenImage.src = URL.createObjectURL(document.getElementById('file').files[0]);
+                chosenImageContainer.classList.remove('hidden');
+                analyzeButton.removeAttribute('disabled');
+            }
+        </script>
+    </div>
+</body>
+</html>

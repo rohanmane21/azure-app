@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Analysis Result</h1>
+        <h2 class="caption">Image Caption: {{ image_caption }}</h2>
+        <div class="image-container">
+            <!-- Updated img tag to handle Base64 encoded image -->
+            <img src="data:image/jpeg;base64,{{ encoded_image }}" alt="Analyzed Image" id="analyzedImage" class="hidden">
+        </div>
+        <div class="buttons-container">
+            <!-- "Show Analyzed Image" button -->
+            <button onclick="toggleAnalyzedImage()">Analyzed Image</button>
+            
+            <!-- "Home" button to redirect to the index page -->
+            <a href="{{ url_for('index') }}" class="home-button">Home</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnalyzedImage() {
+            var analyzedImage = document.getElementById('analyzedImage');
+            analyzedImage.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
