@@ -1,37 +1,37 @@
 <h1>Microsoft-Future-Ready-Talent-Virtual-Internship-Project</h1>
-<h2>Project Title:</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Image Analyzer Using Computer Vision.</b></a>
+<h2>Project Title:</h2><b><a href="https://webpicanalyzer.azurewebsites.net/">Image Analyzer Using Computer Vision.</b></a>
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://aiwebappazure.azurewebsites.net/ <br>
 <b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view <br>
-<b>Github Repository URL :</b> https://github.com/AnkeetaGupta/flask-ai-translation.git <br>
-<b>Industry :</b> Lifestyle and Technology<br>
+<b>Github Repository URL :</b> https://github.com/rohanmane21/azure-app.git <br>
+<b>Industry :</b> AI and Technology<br>
 <h2>Azure Services Used</h2>
 <h3>
 Core Azure Services : <br>
 1. Azure App Service <br>
 2. Azure Storage Account(Blob Storage)  <br> <br>
 Azure AI Service <br>
-1. Azure AI Custom Vision Service
+1. Azure AI Computer Vision Service
 </h3>
 <h2>Problem Statement</h2>
-<p align="justify">The manual inspection and classification of fruits in large quantities can be time-consuming, error-prone, and labor-intensive. Traditional methods lack efficiency and precision, leading to challenges in quality control and timely decision-making. The need for an automated fruit detection system arises to address these challenges and enhance the overall productivity of fruit-related industries.</p>
+<p align="justify">Developing an AI-based image analysis system to accurately classify and recognize diverse objects in complex visual environments poses a significant challenge.This project aims to enhance the efficiency and robustness of image analysis through advanced AI techniques, addressing the complexities associated with diverse and dynamic visual data.</p>
 <h2>Project Description</h2>
-<p align="justify">The Automated Fruit Detection System is a computer vision application designed to automatically identify and classify fruits in images. Leveraging state-of-the-art machine learning techniques, the system aims to streamline processes in agriculture, inventory management, and food processing industries. Users can upload images containing fruits, and the system will provide accurate detection and classification results.</p><br>
+<p align="justify">This project enables users to seamlessly upload images and leverage the power of the Azure Computer Vision API for comprehensive image analysis. By storing images securely in Azure Blob Storage and utilizing advanced image processing capabilities, users gain valuable insights into the content of their uploaded images. </p><br>
 <b>Key Features :</b>
 <ul>
-    <li>Automated Fruit Detection</li>
+    <li>Azure App Service for Hosting</li>
     <li>User-Friendly Interface</li>
     <li>Real-time Processing</li>
     <li>Accuracy and Reliability</li>
-    <li>Azure App Service Hosting</li>
     <li>Azure Blob Service for Efficient Data Management</li>
 </ul>
 <b>Future Enhancements :</b>
 <ul>
-    <li>Integration with mobile applications for on-the-go fruit detection.</li>
-    <li>Implementation of more advanced machine learning models for improved accuracy.</li>
+    <li>Advanced image analysis features.</li>
     <li>Support for real-time video analysis.</li>
+    <li>Performance optimization.</li>
+    <li>Compatibility with additional cloud services.</li>
 <h2>Core Azure Services</h2>
 <b>Azure App Service :</b><br><p align="justify"><br>The project utilizes Azure App Service to host the web application, ensuring scalability, reliability, and ease of deployment. This service enables seamless integration with other Azure components and provides a secure environment for the application.</p>
 
