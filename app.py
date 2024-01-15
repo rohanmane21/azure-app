@@ -73,31 +73,6 @@ def result():
     image_caption = analysis["description"]["captions"][0]["text"].capitalize()
 
     return render_template("result.html", image_caption=image_caption, encoded_image=encoded_image)
-# @app.route("/result")
-# def result():
-#     file_name = request.args.get('file_name', '')
-
-#     # Download the image from Azure Blob Storage
-#     blob_service_client = BlobServiceClient.from_connection_string(blob_service_connection_string)
-#     blob_client = blob_service_client.get_blob_client(container=container_name, blob=file_name)
-#     image_data = blob_client.download_blob().readall()
-
-#     # Analyze the image using Computer Vision
-#     headers = {'Ocp-Apim-Subscription-Key': subscription_key,
-#                'Content-Type': 'application/octet-stream'}
-#     params = {'visualFeatures': 'Categories,Description,Color'}
-#     response = requests.post(
-#         analyze_url, headers=headers, params=params, data=image_data)
-#     response.raise_for_status()
-
-#     # The 'analysis' object contains various fields that describe the image.
-#     analysis = response.json()
-#     image_caption = analysis["description"]["captions"][0]["text"].capitalize()
-
-#     # Display the image and overlay it with the caption.
-#     image = Image.open(BytesIO(image_data))
-
-#     return render_template("result.html", image_caption=image_caption, image=image)
 
 if __name__ == "__main__":
     app.run(debug=True)
