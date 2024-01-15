@@ -5,7 +5,6 @@ Flask==3.0.0
 requests==2.31.0
 Pillow==8.2.0
 setuptools==59.6.0
---upgrade
 wheel
 SomeLibrary
 AnotherLibrary>=2.0.0
