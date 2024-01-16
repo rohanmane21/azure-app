@@ -37,8 +37,29 @@ Azure AI Service <br>
 <b>Azure Storage Account(Blob Storage) :</b><br><p align="justify">Azure Blob Storage is a cloud-based object storage service provided by Microsoft Azure. It is part of the Azure Storage services suite, offering scalable and secure storage for a variety of data types, including text and binary data such as images, videos, documents, and more. Azure Blob Storage is widely used for storing and managing unstructured data in the cloud.</p>
 <h2>Azure AI Computer Vision Service</h2>
 <b>Azure AI Compuetr Vision Service :</b><br><br><p align="justify">Azure offers an AI-powered Computer Vision service that enables developers to integrate computer vision capabilities into their applications without the need for extensive expertise in machine learning or computer vision algorithms.</p>
-<h2>Other Azure Technologies / Services</h2>
-<p align="justify">In the Multilingual Content Hub, Azure Monitor and Azure Application Insights collaboratively form a dynamic duo, meticulously overseeing application health and person stories.</p>
+<h2>Project Flow</h2>
+<p align="justify">
+    <li>Step 1: User Uploads an Image:</li>
+    <li>Users access the web application and use the provided interface to upload an image.</li>
+    <li>Image Stored in Azure Blob Storage:</li>
+    <li><b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob Storage.</li>
+Retrieve Image for Analysis:
+
+When the user wants to view the analysis results, the application retrieves the image data from Azure Blob Storage.
+The download_blob function is used to download the image data based on the specified file name.
+Encode Image Data in Base64:
+
+The application encodes the image data in Base64 format. This encoded image is then used for display and analysis.
+Analyze Image Using Azure Computer Vision:
+
+The encoded image is sent to the Azure Computer Vision API for analysis.
+The requests.post method is used to send a request to the Computer Vision API with the image data.
+The API returns analysis results, including categories, description, and color details.
+Display Results:
+
+The application extracts relevant information from the analysis results, such as image captions.
+The result page is rendered with the analyzed information, providing insights into the content of the uploaded image.
+The user sees the analyzed image along with descriptive information on the result page.</p>
 
 <b>Azure Monitor :</b><p align="justify"><b>Real-time Performance Metrics :</b> Monitors vital overall performance indicators, ensuring the application runs seamlessly.<br>
 <b>Proactive Alerts :</b> Issues immediately alerts on deviations from set overall performance thresholds, enabling fast responses to capability disruptions.</p>
