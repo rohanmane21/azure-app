@@ -1,0 +1,43 @@
+/* Add this to your existing stylesheet or create a new one */
+.chat-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-button {
+    position: fixed;
+    top: 10px;
+    right: 170px; /* Adjust the right distance based on your layout */
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-bot-iframe {
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    min-width: 200px;
+    width: 250px;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.chat-bot-iframe-open {
+    display: block;
+    transform: translateY(0);
+}
