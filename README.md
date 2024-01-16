@@ -14,9 +14,9 @@ Core Azure Services : <br>
 Azure AI Service <br>
 1. Azure AI Computer Vision Service
 </h3>
-<h2>Problem Statement</h2>
+<h3>Problem Statement</h3>
 <p align="justify">Developing an AI-based image analysis system to accurately classify and recognize diverse objects in complex visual environments poses a significant challenge.This project aims to enhance the efficiency and robustness of image analysis through advanced AI techniques, addressing the complexities associated with diverse and dynamic visual data.</p>
-<h2>Project Description</h2>
+<h3>Project Description</h3>
 <p align="justify">This project enables users to seamlessly upload images and leverage the power of the Azure Computer Vision API for comprehensive image analysis. By storing images securely in Azure Blob Storage and utilizing advanced image processing capabilities, users gain valuable insights into the content of their uploaded images. </p><br>
 <b>Key Features :</b>
 <ul>
@@ -68,15 +68,15 @@ Azure AI Service <br>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/face-detection.png"></img>
 <h3>Working Live Project Display </h3>
 <b>Description :</b><p align="justify">Here, I am attaching the final working website's screenshots for the reference.</p>
-<h5>Home Page: </h5>
+<h3>Home Page: </h3>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-19-11.png"></img>
 <h3>Choosen Image: </h3>
 <p align="justify">Select Image from local machine.</p>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-06.png"></img>
-<h4>Output Page: </h4>
+<h3>Output Page: </h3>
 <p align="justify">Image after Analysis with analyzed Captions.</p>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-54.png"></img>
-<h2>Conclusion:</h2>
+<h3>Conclusion:</h3>
 <p align="justify">
 <b>The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience and gives the captions for analyzed images. Through the integration of these Azure services.</b>
 </p> <br>
