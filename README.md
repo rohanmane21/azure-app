@@ -69,7 +69,7 @@ Azure AI Service <br>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-19-11.png" alt="final-project-demo"></img>
 
 <h3>Choosen Image: </h3>
-<p align="justify">Select Image from local machine</p>
+<p align="justify">Select Image from local machine.</p>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-06.png"></img>
 <h4>Output Page: </h4>
 <p align="justify">Image after Analysis with analyzed Captions.</p>
@@ -78,4 +78,4 @@ Azure AI Service <br>
 <p align="justify">
 <b>The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience. Through the integration of these Azure services.</b>
 </p> <br>
-</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Image Analyzer Using Azure AI Computer/Custom Vision Service</b></a>
+</h2><b><a href="https://webpicanalyzer.azurewebsites.net/">Image Analyzer Using Azure AI Computer/Custom Vision Service</b></a>
