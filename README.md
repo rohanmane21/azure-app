@@ -39,27 +39,20 @@ Azure AI Service <br>
 <b>Azure AI Compuetr Vision Service :</b><br><br><p align="justify">Azure offers an AI-powered Computer Vision service that enables developers to integrate computer vision capabilities into their applications without the need for extensive expertise in machine learning or computer vision algorithms.</p>
 <h2>Project Flow</h2>
 <p align="justify">
-    <b>Step 1:</b>User Uploads an Image:</li>
-    Users access the web application and use the provided interface to upload an image.</li>
-    <b>Step 2: </b>Image Stored in Azure Blob Storage:</li>
-    <b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob Storage.</li>
-Retrieve Image for Analysis:
-
-When the user wants to view the analysis results, the application retrieves the image data from Azure Blob Storage.
-The download_blob function is used to download the image data based on the specified file name.
-Encode Image Data in Base64:
-
-The application encodes the image data in Base64 format. This encoded image is then used for display and analysis.
-Analyze Image Using Azure Computer Vision:
-
-The encoded image is sent to the Azure Computer Vision API for analysis.
-The requests.post method is used to send a request to the Computer Vision API with the image data.
-The API returns analysis results, including categories, description, and color details.
-Display Results:
-
-The application extracts relevant information from the analysis results, such as image captions.
-The result page is rendered with the analyzed information, providing insights into the content of the uploaded image.
-The user sees the analyzed image along with descriptive information on the result page.</p>
+    <b>Step 1:</b> User Uploads an Image:
+    Users access the web application and use the provided interface to upload an image.
+    <b>Step 2: </b> Image Stored in Azure Blob Storage:
+    <b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob            Storage.
+    <b>Step 3:</b> Retrieve Image for Analysis:
+    When the user wants to view the analysis results, the application retrieves the image data from Azure Blob Storage.
+    <b>Step 4:</b> Encode Image Data in Base64:
+    The application encodes the image data in Base64 format. This encoded image is then used for display and analysis.
+    <b>Step 5:</b> Analyze Image Using Azure Computer Vision:
+    The encoded image is sent to the Azure Computer Vision API for analysis.
+    The API returns analysis results, including categories, description, and color details.
+    <b>Step 6:</b>Display Results:
+    The application extracts relevant information from the analysis results, such as image captions.
+    The result page is rendered with the analyzed information, providing insights into the content of the uploaded image.
 
 <b>Azure Monitor :</b><p align="justify"><b>Real-time Performance Metrics :</b> Monitors vital overall performance indicators, ensuring the application runs seamlessly.<br>
 <b>Proactive Alerts :</b> Issues immediately alerts on deviations from set overall performance thresholds, enabling fast responses to capability disruptions.</p>
