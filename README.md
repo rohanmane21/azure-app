@@ -39,13 +39,13 @@ Azure AI Service <br>
 <b>Azure AI Compuetr Vision Service :</b><br><br><p align="justify">Azure offers an AI-powered Computer Vision service that enables developers to integrate computer vision capabilities into their applications without the need for extensive expertise in machine learning or computer vision algorithms.</p>
 <h2>Project Flow</h2>
 <p align="justify">
-    <b>Step 1:</b> User Uploads an Image:
-    <li>Users access the web application and use the provided interface to upload an image.</li>
-    <b>Step 2: </b> Image Stored in Azure Blob Storage:
-    <li><b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob            Storage.</li>
-    <b>Step 3:</b> Retrieve Image for Analysis:
+    <li><b>Step 1:</b> User Uploads an Image:</li>
+    Users access the web application and use the provided interface to upload an image.
+    <li><b>Step 2: </b> Image Stored in Azure Blob Storage:</li>
+    <b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob            Storage.</li>
+    <li><b>Step 3:</b> Retrieve Image for Analysis:</li>
     When the user wants to view the analysis results, the application retrieves the image data from Azure Blob Storage.
-    <b>Step 4:</b> Encode Image Data in Base64:
+    <li><b>Step 4:</b> Encode Image Data in Base64:</li>
     The application encodes the image data in Base64 format. This encoded image is then used for display and analysis.
     <b>Step 5:</b> Analyze Image Using Azure Computer Vision:
     The encoded image is sent to the Azure Computer Vision API for analysis.
