@@ -72,9 +72,9 @@ Azure AI Service <br>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-06.png"></img>
 <h4>Output Page</h4>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-54.png"></img>
-<h2>Final Project Statement</h2>
+<h2>Conclusion:</h2>
 <p align="justify">
-The Multilingual Content Hub redefines language connectivity by using seamlessly merging generation and linguistic finesse. This task, empowered by means of Azure's sturdy infrastructure, not most effective tackles language barriers however envisions a destiny wherein verbal exchange transcends borders.</p>
+The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience. Through the integration of these Azure services.</p>
 <p align="justify">
 <b>As we finish, the Multilingual Content Hub isn't always just an utility; it's an ongoing exploration of endless communication possibilities. In this era of worldwide connectivity, this undertaking signifies a pivotal step toward a greater accessible and interconnected international.</b>
 </p> <br>
