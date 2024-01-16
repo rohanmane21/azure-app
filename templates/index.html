@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebPicAnalyzer</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chat-style.css') }}">
 </head>
 <body>
     <div class="container">
@@ -25,6 +26,13 @@
             </div>
         </form>
 
+        <!-- Add the open and close buttons -->
+        <button id="openChatButton" class="chat-button" onclick="toggleChat()">Open Chat</button>
+        <button id="closeChatButton" class="close-button" onclick="closeChat()">Close Chat</button>
+
+        <!-- Add the chat bot iframe -->
+        <iframe src='https://webchat.botframework.com/embed/faceproject-bot?s=ZrbsQUzOI3o.mq_LoAiVEobXiOOA_R1H0g6wOb42tXGKahiT9q5KgxE' class="chat-bot-iframe"></iframe>
+
         <script>
             function chooseImage() {
                 document.getElementById('file').click();
@@ -38,6 +46,16 @@
                 chosenImage.src = URL.createObjectURL(document.getElementById('file').files[0]);
                 chosenImageContainer.classList.remove('hidden');
                 analyzeButton.removeAttribute('disabled');
+            }
+
+            function toggleChat() {
+                var chatBotIframe = document.querySelector('.chat-bot-iframe');
+                chatBotIframe.classList.toggle('chat-bot-iframe-open');
+            }
+
+            function closeChat() {
+                var chatBotIframe = document.querySelector('.chat-bot-iframe');
+                chatBotIframe.classList.remove('chat-bot-iframe-open');
             }
         </script>
     </div>
