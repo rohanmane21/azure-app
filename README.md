@@ -76,6 +76,6 @@ Azure AI Service <br>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-54.png"></img>
 <h2>Conclusion:</h2>
 <p align="justify">
-<b>The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience. Through the integration of these Azure services.</b>
+<b>The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience and gives the captions for analyzed images. Through the integration of these Azure services.</b>
 </p> <br>
 </h2><b><a href="https://webpicanalyzer.azurewebsites.net/">Image Analyzer Using Azure AI Computer/Custom Vision Service</b></a>
