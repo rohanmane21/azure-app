@@ -33,9 +33,8 @@ Azure AI Service <br>
     <li>Performance optimization.</li>
     <li>Compatibility with additional cloud services.</li>
 <h2>Core Azure Services</h2>
-<b>Azure App Service :</b><br><p align="justify"><br>The project utilizes Azure App Service to host the web application, ensuring scalability, reliability, and ease of deployment. This service enables seamless integration with other Azure components and provides a secure environment for the application.</p>
-
-<b>Azure Storage Account(Blob Storage) :</b><br><p align="justify">Azure Blob Storage is Microsoft's object storage solution for the cloud. It allows you to store and manage large amounts of unstructured data, such as text or binary data, making it suitable for various use cases, including serving images or documents to web applications, storing backups, and more.</p>
+<b>Azure App Service :</b><br><p align="justify"><br>Azure App Service is a fully managed platform-as-a-service (PaaS) offering provided by Microsoft Azure. It enables developers to build, deploy, and scale web apps and APIs quickly without managing the underlying infrastructure. Azure App Service supports multiple programming languages, frameworks, and operating systems, providing a flexible and scalable environment for hosting various types of applications.</p>
+<b>Azure Storage Account(Blob Storage) :</b><br><p align="justify">Azure Blob Storage is a cloud-based object storage service provided by Microsoft Azure. It is part of the Azure Storage services suite, offering scalable and secure storage for a variety of data types, including text and binary data such as images, videos, documents, and more. Azure Blob Storage is widely used for storing and managing unstructured data in the cloud.</p>
 <h2>Azure AI Computer Vision Service</h2>
 <b>Azure AI Compuetr Vision Service :</b><br><br><p align="justify">Azure offers an AI-powered Computer Vision service that enables developers to integrate computer vision capabilities into their applications without the need for extensive expertise in machine learning or computer vision algorithms.</p>
 <h2>Other Azure Technologies / Services</h2>
