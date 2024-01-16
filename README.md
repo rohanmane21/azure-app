@@ -5,7 +5,7 @@
 <b>Project Demo URL :</b> https://aiwebappazure.azurewebsites.net/ <br>
 <b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view <br>
 <b>Github Repository URL :</b> https://github.com/rohanmane21/azure-app.git <br>
-<b>Industry :</b> AI and Technology<br>
+<b>Industry :</b> Lifestyle<br>
 <h2>Azure Services Used</h2>
 <h3>
 Core Azure Services : <br>
@@ -74,8 +74,8 @@ Azure AI Service <br>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-54.png"></img>
 <h2>Conclusion:</h2>
 <p align="justify">
-The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience. Through the integration of these Azure services.</p>
+</p>
 <p align="justify">
-<b>As we finish, the Multilingual Content Hub isn't always just an utility; it's an ongoing exploration of endless communication possibilities. In this era of worldwide connectivity, this undertaking signifies a pivotal step toward a greater accessible and interconnected international.</b>
+<b>The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience. Through the integration of these Azure services.</b>
 </p> <br>
-</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Multilingual Content Hub - VOX Translation Web App using Azure AI Translation Service</b></a>
+</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Image Analyzer Using Azure AI Computer/Custom Vision Service</b></a>
