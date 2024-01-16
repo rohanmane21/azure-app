@@ -28,10 +28,10 @@ Azure AI Service <br>
 </ul>
 <b>Future Enhancements :</b>
 <ul>
-    <li>Advanced image analysis features.</li>
-    <li>Support for real-time video analysis.</li>
-    <li>Performance optimization.</li>
-    <li>Compatibility with additional cloud services.</li>
+    <li>Improve the user interface with additional features.</li>
+    <li>Implement user authentication and authorization.</li>
+    <li>Explore additional Computer Vision API features for more detailed analysis.</li>
+    <li>Consider incorporating frontend frameworks or libraries for a more interactive user experience.</li>
 <h2>Core Azure Services</h2>
 <b>Azure App Service :</b><br><p align="justify"><br>Azure App Service is a fully managed platform-as-a-service (PaaS) offering provided by Microsoft Azure. It enables developers to build, deploy, and scale web apps and APIs quickly without managing the underlying infrastructure. Azure App Service supports multiple programming languages, frameworks, and operating systems, providing a flexible and scalable environment for hosting various types of applications.</p>
 <b>Azure Storage Account(Blob Storage) :</b><br><p align="justify">Azure Blob Storage is a cloud-based object storage service provided by Microsoft Azure. It is part of the Azure Storage services suite, offering scalable and secure storage for a variety of data types, including text and binary data such as images, videos, documents, and more. Azure Blob Storage is widely used for storing and managing unstructured data in the cloud.</p>
