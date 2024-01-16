@@ -64,7 +64,7 @@ Azure AI Service <br>
 <h3>Azure AI Computer Vision/Custom Vision</h3>
 <b>Description :</b><p align="justify">Azure Computer Vision API can analyze the content of an image, extracting information such as objects, brands, faces, and text. It can identify and categorize visual content, providing details about what is present in the image.</p>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2007-24-16.png"></img><br>
-<h6><b>Resource Visualizer: </b></h6>
+<h3><b>Resource Visualizer: </b></h3>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/face-detection.png"></img>
 <h3>Working Live Project Display </h3>
 <b>Description :</b><p align="justify">Here, I am attaching the final working website's screenshots for the reference.</p>
