@@ -40,9 +40,9 @@ Azure AI Service <br>
 <h2>Project Flow</h2>
 <p align="justify">
     <b>Step 1:</b> User Uploads an Image:
-    Users access the web application and use the provided interface to upload an image.
+    <li>Users access the web application and use the provided interface to upload an image.</li>
     <b>Step 2: </b> Image Stored in Azure Blob Storage:
-    <b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob            Storage.
+    <li><b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob            Storage.</li>
     <b>Step 3:</b> Retrieve Image for Analysis:
     When the user wants to view the analysis results, the application retrieves the image data from Azure Blob Storage.
     <b>Step 4:</b> Encode Image Data in Base64:
