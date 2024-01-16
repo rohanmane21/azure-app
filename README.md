@@ -56,14 +56,14 @@ Azure AI Service <br>
 <h2>Screenshots</h2>
 <h3>Azure App Service</h3>
 <b>Description :</b><p align="justify">Azure App Service provides a scalable and reliable hosting environment for the Multilingual Content Hub. It ensures seamless deployment and high availability, facilitating an optimal user experience.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-service.png" alt="azure-app-service"></img><br>
+<img src="https://github.com/rohanmane21/azure-app/blob/17340bb4d43505e11b211633c055becba967712b/screenshots/Screenshot%20from%202024-01-16%2007-21-03.png"></img><br>
 <h3>Azure Storage Account(Blob Storage)</h3>
 <b>Description :</b><p align="justify"> <b>Blob:</b> Binary Large Object, representing the data that you store in Azure Blob Storage. Blobs can be of different types, such as Block Blobs (optimized for streaming and storing large amounts of data) and Page Blobs (optimized for random read/write operations).</p>
 <p> <b>Container:</b>A container is a logical unit for organizing blobs. All blobs must be stored in a container. Containers are similar to directories in a file system and help in organizing and managing blobs.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-db.png" alt="azure-mysql-db-service"></img><br>
-<h3>Azure AI Computer Vision</h3>
+<img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2007-23-34.png"></img><br>
+<h3>Azure AI Computer Vision/Custom Vision</h3>
 <b>Description :</b><p align="justify">Azure Computer Vision API can analyze the content of an image, extracting information such as objects, brands, faces, and text. It can identify and categorize visual content, providing details about what is present in the image.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-ai.png" alt="azure-translator-ai-service"></img><br>
+<img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2007-24-16.png"></img><br>
 <h3>Working Live Project Display</h3>
 <b>Description :</b><p align="justify">Here I am attaching the final working website's screenshot for the reference.</p>
 <img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/final-project.png" alt="final-project-demo"></img>
