@@ -12,7 +12,8 @@ Core Azure Services : <br>
 1. Azure App Service <br>
 2. Azure Storage Account(Blob Storage)  <br> <br>
 Azure AI Service <br>
-1. Azure AI Computer Vision Service
+1. Azure AI Chat-Bot    
+2. Azure AI Computer Vision Service
 </h3>
 <h3>Problem Statement</h3>
 <p align="justify">Developing an AI-based image analysis system to accurately classify and recognize diverse objects in complex visual environments poses a significant challenge.This project aims to enhance the efficiency and robustness of image analysis through advanced AI techniques, addressing the complexities associated with diverse and dynamic visual data.</p>
@@ -35,8 +36,9 @@ Azure AI Service <br>
 <h2>Core Azure Services</h2>
 <b>Azure App Service :</b><br><p align="justify"><br>Azure App Service is a fully managed platform-as-a-service (PaaS) offering provided by Microsoft Azure. It enables developers to build, deploy, and scale web apps and APIs quickly without managing the underlying infrastructure. Azure App Service supports multiple programming languages, frameworks, and operating systems, providing a flexible and scalable environment for hosting various types of applications.</p>
 <b>Azure Storage Account(Blob Storage) :</b><br><p align="justify">Azure Blob Storage is a cloud-based object storage service provided by Microsoft Azure. It is part of the Azure Storage services suite, offering scalable and secure storage for a variety of data types, including text and binary data such as images, videos, documents, and more. Azure Blob Storage is widely used for storing and managing unstructured data in the cloud.</p>
-<h2>Azure AI Computer Vision Service</h2>
-<b>Azure AI Compuetr Vision Service :</b><br><br><p align="justify">Azure offers an AI-powered Computer Vision service that enables developers to integrate computer vision capabilities into their applications without the need for extensive expertise in machine learning or computer vision algorithms.</p>
+<h2>Azure AI Services</h2>
+<b>Azure AI Bot Service :</b><br><br><p align="justify">Azure offers an AI-powered Computer Vision service that enables developers to integrate computer vision capabilities into their applications without the need for extensive expertise in machine learning or computer vision algorithms.</p>
+<b>Azure AI Computer Vision Service :</b><br><br><p align="justify">The Azure Bot Service is built on top of the Microsoft Bot Framework, which is a set of tools, SDKs (Software Development Kits), and services for building and connecting intelligent bots. The Bot Framework provides the foundation for creating bots that can interact with users across multiple channels, such as Microsoft Teams, Skype, Slack, and more.</p>
 <h2>Project Flow</h2>
 <p align="justify">
     <li><b>Step 1:</b> User Uploads an Image:</li>
@@ -61,21 +63,26 @@ Azure AI Service <br>
 <b>Description :</b><p align="justify"> <b>Blob:</b> Binary Large Object, representing the data that you store in Azure Blob Storage. Blobs can be of different types, such as Block Blobs (optimized for streaming and storing large amounts of data) and Page Blobs (optimized for random read/write operations).</p>
 <p> <b>Container:</b>A container is a logical unit for organizing blobs. All blobs must be stored in a container. Containers are similar to directories in a file system and help in organizing and managing blobs.</p>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2007-23-34.png"></img><br>
-<h3>Azure AI Computer Vision/Custom Vision</h3>
+<h3>Azure AI Computer Vision</h3>
 <b>Description :</b><p align="justify">Azure Computer Vision API can analyze the content of an image, extracting information such as objects, brands, faces, and text. It can identify and categorize visual content, providing details about what is present in the image.</p>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2007-24-16.png"></img><br>
+<h3>Azure AI Bot Service</h3>
+<b>Description :</b><p align="justify">Azure offers a fully managed service for hosting and scaling your bots. With the Bot Service, you can deploy your bots to the cloud without worrying about managing infrastructure. It allows for automatic scaling based on demand, ensuring your bot can handle varying levels of user interactions.</p>
+<img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-17%2007-29-17.png"></img><br>
 <h3><b>Resource Visualizer: </b></h3>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/face-detection.png"></img>
 <h3>Working Live Project Display </h3>
 <b>Description :</b><p align="justify">Here, I am attaching the final working website's screenshots for the reference.</p>
 <h3>Home Page: </h3>
-<img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-19-11.png"></img>
+<img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-17%2007-25-55.png"></img>
 <h3>Choosen Image: </h3>
 <p align="justify">Select Image from local machine.</p>
-<img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-06.png"></img>
+<img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-17%2007-27-19.png"></img>
 <h3>Output Page: </h3>
 <p align="justify">Image after Analysis with analyzed Captions.</p>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-54.png"></img>
+<p align="justify">Azure AI Chat-Bot:</p>
+<img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-17%2007-26-32.png"></img>
 <h3>Conclusion:</h3>
 <p align="justify">
 <b>The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience and gives the captions for analyzed images. Through the integration of these Azure services.</b>
