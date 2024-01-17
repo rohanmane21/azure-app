@@ -11,9 +11,9 @@
 Core Azure Services : <br>
 1. Azure App Service <br>
 2. Azure Storage Account(Blob Storage)  <br> <br>
-Azure AI Service <br>
-1. Azure AI Chat-Bot    
-2. Azure AI Computer Vision Service
+Azure AI Service : <br>
+1. Azure AI Chat-Bot  <br>  
+2. Azure AI Computer Vision Service<br>
 </h3>
 <h3>Problem Statement</h3>
 <p align="justify">Developing an AI-based image analysis system to accurately classify and recognize diverse objects in complex visual environments poses a significant challenge.This project aims to enhance the efficiency and robustness of image analysis through advanced AI techniques, addressing the complexities associated with diverse and dynamic visual data.</p>
@@ -37,8 +37,9 @@ Azure AI Service <br>
 <b>Azure App Service :</b><br><p align="justify"><br>Azure App Service is a fully managed platform-as-a-service (PaaS) offering provided by Microsoft Azure. It enables developers to build, deploy, and scale web apps and APIs quickly without managing the underlying infrastructure. Azure App Service supports multiple programming languages, frameworks, and operating systems, providing a flexible and scalable environment for hosting various types of applications.</p>
 <b>Azure Storage Account(Blob Storage) :</b><br><p align="justify">Azure Blob Storage is a cloud-based object storage service provided by Microsoft Azure. It is part of the Azure Storage services suite, offering scalable and secure storage for a variety of data types, including text and binary data such as images, videos, documents, and more. Azure Blob Storage is widely used for storing and managing unstructured data in the cloud.</p>
 <h2>Azure AI Services</h2>
-<b>Azure AI Bot Service :</b><br><br><p align="justify">Azure offers an AI-powered Computer Vision service that enables developers to integrate computer vision capabilities into their applications without the need for extensive expertise in machine learning or computer vision algorithms.</p>
-<b>Azure AI Computer Vision Service :</b><br><br><p align="justify">The Azure Bot Service is built on top of the Microsoft Bot Framework, which is a set of tools, SDKs (Software Development Kits), and services for building and connecting intelligent bots. The Bot Framework provides the foundation for creating bots that can interact with users across multiple channels, such as Microsoft Teams, Skype, Slack, and more.</p>
+<b>Azure AI Computer Vision Service :</b><br><br><p align="justify">Azure offers an AI-powered Computer Vision service that enables developers to integrate computer vision capabilities into their applications without the need for extensive expertise in machine learning or computer vision algorithms.</p>
+<b>Azure AI Bot Service :</b><br><br><p align="justify">
+Azure AI Bot Service empowers developers to effortlessly create, launch, and expand smart chatbots that comprehend natural language, utilize cognitive services, and offer enhanced user experiences across multiple platforms.</p>
 <h2>Project Flow</h2>
 <p align="justify">
     <li><b>Step 1:</b> User Uploads an Image:</li>
@@ -54,6 +55,8 @@ Azure AI Service <br>
     <li><b>Step 6:</b>Display Results:</li>
     -The application extracts relevant information from the analysis results, such as image captions.
      The result page is rendered with the analyzed information, providing insights into the content of the uploaded image.
+    <li><b>Step 7:</b>AI Chat bot:</li>
+    -With an AI chatbot, users can engage in the project through interactive questionnaires, enabling a dynamic and         conversational interface for efficient information exchange and user engagement.
 
 <h2>Screenshots</h2>
 <h3>Azure App Service</h3>
