@@ -45,7 +45,7 @@ Azure AI Bot Service empowers developers to effortlessly create, launch, and exp
     <li><b>Step 1:</b> User Uploads an Image:</li>
     -Users access the web application and use the provided interface to upload an image.
     <li><b>Step 2: </b> Image Stored in Azure Blob Storage:</li>
-    -<b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob            Storage.</li>
+    -<b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob Storage.</li>
     <li><b>Step 3:</b> Retrieve Image for Analysis:</li>
     -When the user wants to view the analysis results, the application retrieves the image data from Azure Blob Storage.
     <li><b>Step 4:</b> Encode Image Data in Base64:</li>
