@@ -52,10 +52,10 @@ Azure AI Bot Service empowers developers to effortlessly create, launch, and exp
     -The application encodes the image data in Base64 format. This encoded image is then used for display and analysis.  
     <li><b>Step 5:</b> Analyze Image Using Azure Computer Vision:</li> 
     -The encoded image is sent to the Azure Computer Vision API for analysis.The API returns analysis results, including categories, description, and color details.<br>
-    <li><b>Step 6:</b>Display Results:</li>
+    <li><b>Step 6:</b> Display Results:</li>
     -The application extracts relevant information from the analysis results, such as image captions.
      The result page is rendered with the analyzed information, providing insights into the content of the uploaded image.
-    <li><b>Step 7:</b>AI Chat bot:</li>
+    <li><b>Step 7:</b> AI Chat bot:</li>
     -With an AI chatbot, users can engage in the project through interactive questionnaires, enabling a dynamic and         conversational interface for efficient information exchange and user engagement.
 
 <h2>Screenshots</h2>
@@ -84,7 +84,7 @@ Azure AI Bot Service empowers developers to effortlessly create, launch, and exp
 <h3>Output Page: </h3>
 <p align="justify">Image after Analysis with analyzed Captions.</p>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-16%2014-20-54.png"></img>
-<p align="justify">Azure AI Chat-Bot:</p>
+<h3>Azure AI Chat-Bot:</h3>
 <img src="https://github.com/rohanmane21/azure-app/blob/main/screenshots/Screenshot%20from%202024-01-17%2007-26-32.png"></img>
 <h3>Conclusion:</h3>
 <p align="justify">
