@@ -3,7 +3,7 @@
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://aiwebappazure.azurewebsites.net/ <br>
-<b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view <br>
+<b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view<br>
 <b>Github Repository URL :</b> https://github.com/rohanmane21/azure-app.git <br>
 <b>Industry :</b> Lifestyle<br>
 <h2>Azure Services Used</h2>
