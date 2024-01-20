@@ -1,5 +1,5 @@
 <h1>Microsoft-Future-Ready-Talent-Virtual-Internship-Project</h1>
-<h2>Project Title:</h2><b><a href="https://webpicanalyzer.azurewebsites.net/">Image Analyzer Using Computer Vision.</b></a>
+<h2>Project Title:</h2><b><a href="https://webpicanalyzer.azurewebsites.net/">WebPicAnalyzer Using Azure Computer Vision with Chat-Bot</b></a>
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://webpicanalyzer.azurewebsites.net/ <br>
@@ -90,4 +90,4 @@ Azure AI Bot Service empowers developers to effortlessly create, launch, and exp
 <p align="justify">
 <b>The image analysis web application successfully combines the capabilities of Azure Blob Storage and Azure Cognitive Services - Computer Vision API to provide users with a seamless and insightful experience and gives the captions for analyzed images. Through the integration of these Azure services.</b>
 </p> <br>
-</h2><b><a href="https://webpicanalyzer.azurewebsites.net/">Image Analyzer Using Azure AI Computer/Custom Vision Service</b></a>
+</h2><b><a href="https://webpicanalyzer.azurewebsites.net/">WebPicAnalyzer Using Azure Computer Vision with Chat-Bot.</b></a>
